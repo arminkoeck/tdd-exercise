@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "watch test": "jest --watch *.js",
+    "auto-test": "jest --watch *.js",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack",
@@ -15,6 +15,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.2",
+    "babel-jest": "^29.7.0",
     "css-loader": "^7.1.1",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
